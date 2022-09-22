@@ -1,0 +1,29 @@
+.custom-title{
+    color: #087497;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 65px;
+    text-align: center;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+
+.custom-title-seperator{
+    margin: 15px;
+    display: block;
+    background-color: #ddd;
+    height: 2px;
+    position: relative;
+}
+
+.custom-title-seperator:before{
+    content: "";
+    position: absolute;
+    background-color: #ff4669;
+    height: 2px;
+    width: 169px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    
+}
